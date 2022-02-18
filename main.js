@@ -1,5 +1,7 @@
+import "./../sass/styles.scss";
 
-/*==================== MOBILE MENU SHOW ====================*/
+
+/*==================== MENU SHOW HIDDEN ====================*/
 const navMenu = document.getElementById('nav-menu'),
         navToggle = document.getElementById('nav-toggle'),
         navClose = document.getElementById('nav-close');
@@ -79,7 +81,7 @@ tabs.forEach(tab =>{
 const sections = document.querySelectorAll("section");
 const navLi = document.querySelectorAll(".nav_menu ul li a");
 window.onscroll = () => {
-  var current = "";
+  let current = "";
 
   sections.forEach((section) => {
     const sectionTop = section.offsetTop;
@@ -94,3 +96,10 @@ window.onscroll = () => {
     }
   });
 };
+
+let cards = document.querySelectorAll('.card');
+for(let i = 0; i < cards.length; i++){
+  cards[i].addEventListener( 'click', function() {
+  cards[i].classList.toggle('is-flipped');
+});
+}

@@ -7,6 +7,11 @@ let TerserPlugin = require('terser-webpack-plugin');
 module.exports = {
     // includes common plugins like uglify if set to production (to minimize JS code)
     mode: 'development',
+    performance: {
+        hints: false,
+        maxEntrypointSize: 512000,
+        maxAssetSize: 512000
+    },
     // source JS file (entry / output are called keys)
     entry: "./src/main.js",
     // where all bundled JS/CSS will go (filename and path (made out of current directory/build))
