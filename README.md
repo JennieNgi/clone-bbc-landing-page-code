@@ -8,5 +8,6 @@
 - Media Queries is added for responsive design
 
 ## Credit/Acknowledgment
-- Images and contents by BBC.com
-- Disclaimer:  I do not own any of the news photos and contents. All copyrights belong to their original owners. No copyright infringement intended.
+- All images used from License-free Images Website https://www.pexels.com/
+- Images are not related to the content
+- Disclaimer: I do not own any of the news photos and contents. All copyrights belong to their original owners. No copyright infringement intended.
