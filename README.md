@@ -1,5 +1,5 @@
 # Introduction
-- This is a clone BBC website
+- This is a clone BBC website landing page
 - For website display, please go to: https://jenniengi.github.io/clonebbc/
 - The purpose is to show skills in HTML, CSS, JavaScript
 
