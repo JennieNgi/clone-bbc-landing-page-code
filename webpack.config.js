@@ -6,7 +6,7 @@ let TerserPlugin = require('terser-webpack-plugin');
 
 module.exports = {
     // includes common plugins like uglify if set to production (to minimize JS code)
-    mode: 'development',
+    mode: 'production',
     performance: {
         hints: false,
         maxEntrypointSize: 512000,
@@ -21,7 +21,7 @@ module.exports = {
         publicPath: '/'
     },
     // when errors occur in browser, it shows the error in the JS and not in the transpiled bundle.js
-    devtool: 'nosources-source-map',
+    devtool: 'inline-source-map',
     // setup webpack-dev-server
     devServer: {
         static: {
@@ -60,7 +60,7 @@ module.exports = {
                         loader: "css-loader",
                         options: {
                             url: true,
-                            sourceMap: false
+                            sourceMap: true
                         }
                     }
                 ]
@@ -74,7 +74,7 @@ module.exports = {
                         loader: "css-loader",
                         options: {
                             url: true,
-                            sourceMap: false
+                            sourceMap: true
                         }
                     },
                     "sass-loader"

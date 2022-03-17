@@ -35,6 +35,6 @@
     "globals": {}
   },
   "dependencies": {
-    "swiper": "^7.4.1"
+    "@fortawesome/fontawesome-free": "^5.15.4"
   }
 }
