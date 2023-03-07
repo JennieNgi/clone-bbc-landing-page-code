@@ -1,3 +1,5 @@
+![BBC](https://user-images.githubusercontent.com/75710628/223286014-ea9c73bf-f420-4d64-ab43-7d3cb8ab6573.png)
+
 # Introduction
 - This is a clone BBC website landing page
 - The original website is https://www.bbc.com/
